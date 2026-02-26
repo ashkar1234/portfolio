@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio showcasing innovative web development projects and creative solutions">
+    <title>Mohamed Ashkar - Full Stack Python Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <p class="hero-subtitle">Hi, I'm</p>
+            <h1 class="hero-title">MOHAMED ASHKAR</h1>
+            <p class="hero-description">
+                <strong>FULL STACK PYTHON DEVELOPER</strong><br>
+                I BUILD MODERN USER-FRIENDLY PORTFOLIO WITH A FOCUS ON CLARITY AND PERFORMANCE
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/feed/" class="social-link" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ashkar._.officia/" class="social-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:mohamedashkar932@gmail.com" class="social-link" aria-label="envelope"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-subtitle">Get to know me</p>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image reveal">
+                    <div class="about-image-wrapper">
+                        <img src="./SnapInsta.to_334786543_1347747745769409_1026860716701304614_n.jpg"
+                            alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <h3>I'M A FULL STACK PYTHON DEVELOPER</h3>
+                    <p>
+                        I'm a full stack python developer with 4 months of hands-on experience building responsive
+                        user-friendly Portfolio website. I focus on clean code, simple UI, and constantly improving
+                        with every project I build.
+                    </p>
+                    <a href="./Mohamed Ashkar CV .pdf" class="btn btn-primary" style="margin-top: 1rem;">View
+                        CV</a>
+                </div>
+            </div>
+            <div class="stats-grid reveal">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="4">0</span>
+                    <span class="stat-label">Months Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-subtitle">What I'm good at</p>
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-description">
+                    I have experience with a wide range of technologies and tools that help me build amazing
+                    applications.
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3>
+                        <span class="skill-category-icon"><i class="fas fa-code"></i></span>
+                        Frontend Development
+                    </h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML & CSS</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 85%"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3>
+                        <span class="skill-category-icon"><i class="fas fa-server"></i></span>
+                        Backend Development
+                    </h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">PostgreSQL</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Django</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3>
+                        <span class="skill-category-icon"><i class="fas fa-tools"></i></span>
+                        Tools & Others
+                    </h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Git & GitHub</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-subtitle">My recent work</p>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Here are some of my recent projects that showcase my skills and creativity.
+                </p>
+            </div>
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-image">
+                        <img src="./Screenshot 2026-02-15 012928.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            A modern and responsive portfolio website showcasing my skills, projects, and experience.
+                            Built with clean code and stunning design to create an impressive first impression.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-image">
+                        <img src="./Screenshot 2026-02-15 013941.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="https://ashkar1234.github.io/football-website/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                        </div>
+                        <h3 class="project-title">Football Website</h3>
+                        <p class="project-description">
+                            A dynamic football-themed website featuring creative design and smooth animations.
+                            Built with pure HTML and CSS showcasing modern web design techniques and styling.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="mobile">
+                    <div class="project-image">
+                        <img src="./Screenshot 2026-02-15 024621.png" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="http://127.0.0.1:5000/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Flask</span>
+                        </div>
+                        <h3 class="project-title">Product Recommendation System</h3>
+                        <p class="project-description">
+                            A deep learning–based recommendation system that analyzes user review content to understand
+                            real preferences and
+                            emotions. By combining sentiment insights with intelligent embeddings, it delivers highly
+                            accurate and personalized
+                            suggestions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-subtitle">Let's work together</p>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Have a project in mind or just want to chat? Feel free to reach out!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info reveal">
+                    <h3>Let's talk about everything!</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        vision.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-item-info">
+                                <h4>Email</h4>
+                                <p>mohamedashkar932@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-item-info">
+                                <h4>Phone</h4>
+                                <p>+91 868081XXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-item-info">
+                                <h4>Location</h4>
+                                <p>19,Johnson Line Nagapattinam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Mohamed Ashkar">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="mohamedashkar932@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link" aria-label="CodePen"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="footer-text">
+                &copy; 2026 <a href="#">Mohamed Ashkar</a>. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+
+</html>
